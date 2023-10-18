@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background: linear-gradient(to right, #c695f4, #f49595, #f4e995);
+    color: white;
+}
+
+h1{
+
+}
+
+span{
+    font-size: 1.5em;
+}
+
+button{
+    border: none;
+    font-size: 0.75em;
+    padding: 10px;
+    width: 25%;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(233, 13, 229);
+    transition: 0.5s;
+    border: none;
+    color: white;
+}
+
+#timer{
+    display: flex;
+    justify-content: center;
+    margin: 100px;   
+}
+
+#controlers{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
